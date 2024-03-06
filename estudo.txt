@@ -4,9 +4,19 @@ PQ JS ?
 *Podemos testar no browser.
 *Porque é divertido.
 
-Logica de programação é sequencia de passos a serem executados
-em ordem capaz de resolver um problema específico, voltado para 
-resolver problemas de computação.
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+*Programação*
+=> Programação é o processo de criação de um conjunto de instruções 
+que dizem ao computador como realizar uma tarefa.
 
-*Algoritimo* => Sequencia de passos para chegar no resultado final,
-seguindo uma sequencia logica, pode usar em varias coisas.
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+*Logica de Programação*
+=> A lógica de programação é uma habilidade fundamental na formação de um programador. 
+Ela se refere à capacidade de pensar de forma estruturada e sequencial, ou seja, 
+de organizar as informações de forma lógica para que um computador possa executar uma tarefa.
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+*Fluxograma*
+=> Os fluxogramas são um maneira de representar algoritmos que faz uso de um arranjo 
+visual para deixar claro o fluxo de comandos. Embora seja conveniente em muitas situações,
+eles não são recomendados para algoritmos muito complexos ou longos.

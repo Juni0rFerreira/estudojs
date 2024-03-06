@@ -1,0 +1,13 @@
+*Algoritimo* => Sequencia de passos para chegar no resultado final,
+seguindo uma sequencia logica, pode usar em varias coisas.
+
+Quando você está escrevendo um programa, você o faz na forma de linhas de código, 
+usando uma entre as diversas linguagens de programação que exitem. No entanto, 
+antes de começar a “codar” é preciso definir o que você quer que seu programa faça. 
+Para isso, é preciso definir uma série de regras e passos que o programa deverá executar, 
+como forma de realizar a tarefa desejada.
+
+O algoritmo é esse conjunto de regras. De maneira geral, ele compreende uma sequência 
+finita de ações executáveis (passos) para resolver um problema, ou no caso mais comum 
+em Ciência da Computação, executar uma tarefa. O algoritmo em si não é o programa, mas a 
+sequência de ações e condições que devem ser obedecidas para que o problema seja resolvido.
