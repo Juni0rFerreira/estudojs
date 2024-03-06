@@ -1,0 +1,12 @@
+PQ JS ?
+
+*Não percisa ser compilado.
+*Podemos testar no browser.
+*Porque é divertido.
+
+Logica de programação é sequencia de passos a serem executados
+em ordem capaz de resolver um problema específico, voltado para 
+resolver problemas de computação.
+
+*Algoritimo* => Sequencia de passos para chegar no resultado final,
+seguindo uma sequencia logica, pode usar em varias coisas.

@@ -1,0 +1,92 @@
+if(se), else if e else(senão).
+
+Exemplo:
+if (idade > 18){
+	console.log("Você é obrigado a votar");
+}
+
+Se idade for maior que 18 vai gerar console.log
+
+Exemplo:
+if (idade > 15 && idade < 18 || idade > 70){
+	console.log("O voto é opcional");
+}
+
+Se idade for maior que 15 e idade menor que 18 ou maior que 70 vai gerar o console.log
+
+Exemplo:
+if (idade > 15 && idade < 18 || idade > 70) {
+	console.log("O voto é opcional")
+} else if (idade < 16) {
+    console.log("Você não pode votar");
+}
+
+Se idade for maior que 15 e idade menor que 18 ou maior que 70 vai gerar o console.log O voto é opcional
+se nao se vai gerar console.log voce nao pode votar
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+Switch Case 
+=> O Swith Case é uma instrução que se comporta de forma semelhante ao if / else,
+porém possui uma estrutura mais organizada e de fácil compreensão.
+
+Exemplo:
+let signo = 'Leão';
+
+switch (signo) {
+  case 'Áries':
+    console.log("De 21 março a 20 abril");
+    break;
+	case 'Touro':
+    console.log("de 21 abril a 20 maio");
+    break;
+  case 'Gêmeos':
+    console.log("de 21 maio a 20 junho");
+    break;
+  case 'Câncer':
+    console.log("de 21 junho a 22 julho");
+    break;
+  case 'Leão':
+    console.log("de 23 julho a 22 agosto");
+    break;
+  case 'Virgem':
+    console.log("de 23 agosto a 22 setembro");
+    break;
+  default:
+  	console.log("Signo não registrado");
+    break;
+}
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+while(enquanto)
+=> Podemos utilizar a estrutura de repetição while caso seja necessário repetir um bloco de comandos por N vezes.
+
+Exemplo:
+let i = 0;
+while(i < 11){
+    console.log('5 x ' + i + ' = ' + 5*i);
+    i++;
+}
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+Do-While
+=> O do-while tem o mesmo conceito que o while com uma única diferença, a condição é verificada após os
+comandos do bloco serem executados, ou seja, mesmo que a condição seja falsa, é garantia que o bloco será executado ao menos uma vez.
+
+Exemplo:
+let contador = 0;
+
+do{
+	console.log("O contador vale: " + contador);
+	contador++;
+}while(contador == 1)
+
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+For(para)
+=> A estrutura de repetição for no JavaScript segue o mesmo princípio que o while,
+porém este recurso é mais utilizado quando se sabe o número de iterações da repetição, como ao percorrer um vetor
+
+Exemplo:
+for(let i = 0; i < 11; i++){
+    console.log("5 x " + i + " = " + 5*i);
+}

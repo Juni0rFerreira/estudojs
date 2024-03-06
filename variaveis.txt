@@ -1,0 +1,69 @@
+*Variáveis*
+=> E uma variável é um nome que definimos para armazenar dados de forma simples
+O valor de uma variável pode ser alterado no andamento do algoritmo, por isso o nome de variável.
+
+Exemplo:
+algoritmo
+declare inteiro num1 = 3.
+declare inteiro num2 = 8.
+declare inteiro soma;
+
+soma = num1 + num2;
+
+exibir soma;
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+void main() {
+	int num1 = 3;
+	int num2 = 8;
+	int soma;
+	soma = num1 + num2;
+	printf("A soma do número 1 com o número 2 é %d", soma);
+}
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+*Alterando o valor das variaveis*
+=> Vale ressaltar que as variáveis levam este nome justamente porque podem ter o seu valor alterado conforme 
+a necessidade do algoritmo, se após a soma dos números 1 e 2 fosse necessário efetuar a troca do valor da variável
+num1 para 10, podemos prosseguir com o algoritmo da seguinte forma
+
+algoritmo
+declare inteiro num1 = 3;
+declare inteiro num2 = 8;
+declare inteiro soma;
+
+soma = num1 + num2;
+
+exibir soma;
+
+num1 = 10;
+soma = num1 + num2;
+
+exibir soma;
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+*Tipos de variáveis*
+int: Variável número do tipo inteiro, positivo ou negativo.
+float: Variável numérica do tipo decimal.
+double: Variável numérica do tipo decimal de precisão dupla.
+char: Variável que representa um caractere do tipo texto.
+string: Variável que representa um conjunto de caracteres do tipo texto.
+boolean: Variável booleana, ou seja, que pode representar somente dois valores, verdadeiro ou falso.
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+*Constantes*
+=> Ao contrário das variáveis, que podemos alterar o valor conforme a necessidade do algoritmo a ser desenvolvido,
+as constantes precisam ser inicializadas e não podem ter o seu valor alterado.
+
+algoritmo
+declare real área;
+declare real raio = 5;
+declare constante real pi = 3.14;
+
+area = pi * (raio * raio);
+
+exibir area;
