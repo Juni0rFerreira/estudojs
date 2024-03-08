@@ -1,0 +1,16 @@
+Em uma lista encadeada , para cada novo elemento inserido na estrutura,
+alocamos um espaço de memória para armazená-lo. Dessa forma, o espaço total 
+ocupado na memória é proporcional ao número de elementos da lista. 
+No entanto, não podemos garantir que os elementos armazenados na memória ocuparão 
+um espaço contíguo, e por isso não temos acesso aos elementos da lista diretamente.
+
+A fila tem uma estrutura semelhante à pilha, porém com uma diferença conceitual 
+importante: o paradigma por trás da fila é o FIFO - First In, First Out, ou 
+“o primeiro a entrar é o primeiro a sair”, em tradução livre.
+
+Lista ligada 
+Assim como arrays, as listas ligadas também armazenam elementos sequencialmente,
+porém, ao invés de armazenar os elementos de forma contígua na memória,
+como nos arrays, as listas ligadas não dependem desse tipo de organização.
+Elas utilizam ponteiros para unir os elementos, e cada elemento “aponta” para o
+endereço de memória do próximo da lista, sem que ele precise estar no bloco de memória seguinte.
