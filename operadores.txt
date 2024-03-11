@@ -1,134 +1,31 @@
-*Operadores*
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Operadores aritméticos - Os operadores aritméticos realizam as operações fundamentais da matemática 
-entre duas variáveis e retornam o resultado.
-(+ - * / %)
-
-Exemplos:
-int area = 2;
-area *= 2;
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Operadores de incremento e decremento - Podem ser declarados antes ou depois da variável e incrementam
-ou decrementam em 1 o valor da variável.
-(++ --)
-
-Exemplos:
-int numero = 5;
-numero++;
-numero--;
-
-int desafioUm = 5;
-System.out.println(desafioUm  += ++desafioUm );
-
-int desafioDois = 5;
-System.out.println(desafioDois  += desafioDois++);
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Operadores de igualdade - Os operadores de igualdade verificam se o valor ou o resultado da expressão
-lógica à esquerda é igual (“==”) ou diferente (“!=”) ao da direita, retornando um valor booleano.
-(== !=)
-
-int valorA = 1;
-int valorB = 2;
-
-if(valorA == valorB){
-    System.out.println(“Valores iguais”);
-} else {
-    System.out.println(“Valores diferentes”);
-}
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Operadores relacionais - Os operadores relacionais, assim como os de igualdade, avaliam dois operandos.
-Neste caso, mais precisamente, definem se o operando à esquerda é menor, menor ou igual, maior ou maior 
-ou igual ao da direita, retornando um valor booleano.
-
-Exemplos:
-
-int valorA = 1;
-int valorB = 2;
-
-if (valorA > valorB) {
-    System.out.println(“maior”);
-}
-
-if (valorA >= valorB) {
-    System.out.println(“maior ou igual”);
-}
-
-if (valorA < valorB) {
-    System.out.println(“menor”);
-}
-
-if (valorA <= valorB) {
-    System.out.println(“menor ou igual”);
-}
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Operadores lógicos - Os operadores lógicos representam o recurso que nos permite criar expressões lógicas 
-maiores a partir da junção de duas ou mais expressões. Para isso, aplicamos as operações 
-lógicas E (representado por “&&”) e OU (representado por “||”).
-
-Exemplo:
-if((1 == (2 -1)) && (2 == (1 + 1))){
-    System.out.println(“Ambas as expressões são verdadeiras”);
-}
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-Precedência de operadores - Uma vez que os operadores aritméticos buscam reproduzir as operações 
-matemáticas fundamentais, é natural que eles mantenham as suas regras de precedência, que podem 
-ser manipuladas pelo programador com o uso de parênteses.
-
-Exemplo:
-if ((1 != (2 -1)) || (2 == (1+1))) {
-  System.out.println(“iguais”);
-}
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
-
-
-Exemplos melhores.
 
 Operadores aritméticos
-+	soma	A + B	30
--	subtração	A - B	-10
-*	multiplicação	A * B	200
-/	divisão inteira	B / A	2
-%	módulo	B % A	0
-++	incremento	A++	11
---	decremento	A--	9
++	soma	
+-	subtração	
+*	multiplicação	
+/	divisão inteira	
+%	módulo	
+++	incremento	
+--	decremento	
 
+parseFloat - Converte string em numero inteiro.
 
 Operadores relacionais.
 
-Conside que A=10 e B=20.
-==	igual	A == B	FALSE
-!=	diferente	A != B	TRUE
->	maior do que	A > B	FALSE
-<	menor do que	A < B	TRUE
->=	maior ou igual	A >= B	FALSE
-<=	menor ou igual  	A <= B	TRUE
+==	igual (valor)
+!=	diferente (valor)
+=== igualdade (valor e tipo)
+!== diferente (valor e tipo)
+>	maior 
+<	menor
+>=	maior ou igual
+<=	menor ou igual
+= atribuição
 
 
 Operadores lógicos.
 
-Considere que A=TRUE e B=FALSE.
-&&	AND lógico  	A && B	FALSE
-||	OR lógico	A || B	TRUE
-!	NOT lógico	!A	FALSE
 
-
-Operadores de atribuição.
-
-Considere que A=10 e B=20.
-=	atribuição simples de valor a variável	A = B + 17 	
-+=	atribuição com soma	A += 3	A = A + 3
--=	atribuição com subtração	A -= B - 7	A = A - (B - 7)
-*=	atribuição com produto	C *= A	C = C * A
-/=	atribuição com divisão	C /= A	C = C / A
-%=	atribuição com módulo	C %= A	C = C % A
-<<=	atribuição com deslocamento à esquerda	C <<= 2	C = C << 2
->>=	atribuição com deslocamento à direita	C >>= 2	C = C >> 2
-&=	atribuição com AND binário	C &= 2	C = C & 2
-|=	atribuição com OR binário	C |= 2	C = C | 2
-^=	atribuição com XOR binário	C ^= 2	C = C ^ 2
+&&	AND lógico  (e)
+||	OR lógico   (ou)
+!	NOT lógico  (não)

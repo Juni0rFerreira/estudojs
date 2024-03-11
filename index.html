@@ -6,14 +6,40 @@
     <title>Lógica de Programação Javascript</title>
 </head>
 <body>
-    <h1>Lógica de Programação Javascript</h1>
+    <div class="container">
+        <h1>Lógica de Programação Javascript</h1>
+    </div>
+    <div class="containers">
+        <h1>Olá Mundo!</h1>
+    </div>
+    <div class="containers">
+        <h1>Olá Mundo!</h1>
+    </div>
+    <div class="containers">
+        <h1>Olá Mundo!</h1>
+    </div>
+    <div class="containers">
+        <h1>Olá Mundo!</h1>
+    </div>
+    
 
     <script>
         var nome = prompt("Qual é o seu nome?");
         alert("bem-vindo, " + nome);
 
-        var endereco = 1.2; //numero decimal e/ou numero real
-        var estaGravido = false; //boolean
+        var endereco = 1.2;
+        var estaGravido = false; 
+
+        //DOM
+        var el = document.querySelector('.container h1');
+        el.style.backgroundColor = 'green';
+        el.style.color = 'white';
+        el.style.opacity = 1;
+
+        var el = document.querySelectorAll('.containers h1');
+
+        el[1].innerHTML = "Olá mundo via JS!"
+        
     </script>
 </body>
 </html>

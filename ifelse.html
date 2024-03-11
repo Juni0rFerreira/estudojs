@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Nota e Idade</title>
+</head>
+
+<body>
+
+    <script>
+        var idade = 17;
+        var Prova1 = 7;
+        var Prova2 = 8;
+
+        var media = (Prova1 + Prova2) / 2;
+
+        if (media >= 8 && idade >= 18) {
+            console.log("João tem os requisitos mínimo, João não pode viajar!");
+        } else if ((media >= 8 && idade < 18) || (media < 8 && idade >= 18)) {
+            console.log("João não tem os requisitos mínimo, João não pode viajar!");
+        } else {
+            console.log("João não tem idade e nota para poder viajar!")
+        }
+    </script>
+
+</body>
+
+</html>
