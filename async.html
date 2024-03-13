@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+
+        async function operacaoDemorada() {
+        
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            return 'Operação concluída!';
+
+        }
+
+        async function executarOperacao() {
+
+            console.log('Iniciando operação...');
+
+            const resultado = await operacaoDemorada();
+
+            console.log(resultado);
+
+        }
+
+        executarOperacao();
+
+    </script>
+
+</body>
+
+</html>

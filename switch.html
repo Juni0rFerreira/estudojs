@@ -10,26 +10,47 @@
 <body>
 
     <script>
-        var idade = 17;
-        var Prova1 = 7;
-        var Prova2 = 8;
+        // var idade = 17;
+        // var Prova1 = 7;
+        // var Prova2 = 8;
 
-        var media = (Prova1 + Prova2) / 2;
+        // var media = (Prova1 + Prova2) / 2;
 
-        switch (true) {
-            case (media >= 8 && idade >= 18):
-                console.log("João tem os requisitos mínimos, João pode viajar!");
-                break;
-            case (media >= 8 && idade < 18) || (media < 8 && idade >= 18):
-                console.log("João não tem os requisitos mínimos, João não pode viajar!");
-                break;
-            default:
-                console.log("João não tem idade e nota para poder viajar!");
-        }
+        // switch (true) {
+        //     case (media >= 8 && idade >= 18):
+        //         console.log("João tem os requisitos mínimos, João pode viajar!");
+        //         break;
+        //     case (media >= 8 && idade < 18) || (media < 8 && idade >= 18):
+        //         console.log("João não tem os requisitos mínimos, João não pode viajar!");
+        //         break;
+        //     default:
+        //         console.log("João não tem idade e nota para poder viajar!");
+        // }
 
         //switch é mais usado quando temos muito if/else ele é como booleanas, em cada case
         //vai validar se é verdadeiro ou falso, se for verdadeiro vai dar a resposta caso 
         //não for vai ir até o final no default e dar o resultado final.
+
+        let permissao = 'ceo';
+
+        switch (permissao) {
+            case 'comum':
+                console.log('usuario comum');
+                break;
+            case 'gerente':
+                console.log('usuario gerente');
+                break;
+            case 'diretor':
+                console.log('usuario diretor');
+                break;
+
+            default:
+                console.log(`${permissao} não cadastrado`);
+                break;
+        }
+
+
+
     </script>
 
 </body>

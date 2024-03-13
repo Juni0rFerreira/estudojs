@@ -21,3 +21,19 @@
 for(let i=10;i>=1;i--){
     console.log(i);
 }
+
+
+['a', 'b'].forEach(function(item) {
+    console.log(item);
+});
+
+const array = ['a', 'b', 'c'];
+array.forEach(function(item) {
+    console.log(item);
+});
+
+
+
+
+
+
