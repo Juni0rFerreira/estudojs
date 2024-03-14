@@ -7,8 +7,9 @@
 //   console.log(i);
 // }
 
-var array = ['banana', 'pera', 'maca'];
+var frutas = ['banana', 'pera', 'maça'];
 
-for (let frutas=0; frutas < array.length; frutas++) {
-  console.log(array[frutas]);
+for (let contagem=0; contagem < frutas.length; contagem++) {
+  console.log(frutas[contagem]);
 }
+
