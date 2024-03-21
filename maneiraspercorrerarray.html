@@ -28,11 +28,50 @@
         // const doubleNumbers = numbers.map( num => num * 2 );
         // console.log(doubleNumbers);
 
-        const cursos=['HTML', 'CSS', 'Javascript']
-        cursos.map((element, i) => {
-            console.log("Curso:" + element + " - Posição:" + i);
-        })
-        
+        // const cursos=['HTML', 'CSS', 'Javascript']
+        // cursos.map((element, i) => {
+        //     console.log("Curso:" + element + " - Posição:" + i);
+        // })
+
+        //==========================
+        // MAP 
+        //==========================
+        const produtos = [
+            {
+                nome: "notebook",
+                preco: 2100
+            },
+            {
+                nome: "celular",
+                preco: 400
+            }
+        ];
+
+        const precoEmReais = produtos.map( p => p.preco * 4 );
+        console.log(precoEmReais);
+        console.log(produtos);
+
+
+        //==========================
+        // REDUCE 
+        //==========================
+        const mercadoria = [
+            {
+                nome: "notebook",
+                preco: 2100
+            },
+            {
+                nome: "tv",
+                preco: 3000
+            },
+            {
+                nome: "celular",
+                preco: 400
+            }
+        ];
+
+        const total = mercadoria.reduce(( a, b ) => a + b.preco, 0);
+        console.log(total);
 
     </script>
 
