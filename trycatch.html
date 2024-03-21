@@ -9,14 +9,35 @@
 
         <script>
 
-        // let x;
-        // try {
-            
-        //     x = y + 1;
-        // } catch (e) {
-        //     console.log(e);
-        //     console.log('name ' + e.name);
-        //     console.log('message ' + e.message);
+        let x;
+        
+        let w = 4;
+        try {
+            if( w == 2 ) {
+                throw new Error('Isso é um erro genérico.');
+            } else if ( w == 3 ){
+                throw new TypeError('Isso é um TypeError.');
+            } else {
+                throw new RangeError('Isso é um RangeError.');
+            }
+        } catch (e) {
+            let error = e.name == "RangeError" ? 'Isso é um Range Error.' 
+            : e.name == "TypeError" ? 'Isso é um TypeError.' 
+            : 'Isso é um erro genérico.';
+                console.log(error);
+        }
+
+        // x = y + 1;
+        // console.log(e);
+        // console.log('name ' + e.name);
+        // console.log('message ' + e.message);
+        // console.log(typeof e.name);
+        // if (e.name == "RangeError") {
+        //     console.log('Isso é um Range Error.')
+        // } else if (e.name == "TypeError") {
+        //     console.log('Isso é um TypeError.')
+        // } else {
+        //     console.log('Isso é um erro genérico.')
         // }
 
         // try {
@@ -27,15 +48,15 @@
         //     console.log('erro verificado')
         // }
 
-        let num = 1;
-        try {
+        // let num = 1;
+        // try {
             
-            num.to
-        } catch (e) {
-            console.log(e);
-            console.log('name ' + e.name);
-            console.log('message ' + e.message);
-        }
+        //     num.to
+        // } catch (e) {
+        //     console.log(e);
+        //     console.log('name ' + e.name);
+        //     console.log('message ' + e.message);
+        // }
 
         
     </script>
