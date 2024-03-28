@@ -1,0 +1,13 @@
+.textContainer {
+    border: 1px solid #000;
+    background-color: #365;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.textContent {
+    color: #fff;
+    background-color: #555;
+    margin-left: 20%;
+    margin-right: 20%;
+}
